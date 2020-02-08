@@ -5,7 +5,7 @@ export default class MainFooter extends Component {
         return (
             <div className='mainfooter'>
                 <div className='leftfoot'>
-                2020 @ yathee.sh
+               2020 @ designed and developed by yathee.sh
                 </div>
                 
                 <div className='rightfoot'>

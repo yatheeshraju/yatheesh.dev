@@ -5,7 +5,7 @@ export default class Projectbox extends Component {
         return (
             <div className='card'>
             <a href='https://easymergepdf.herokuapp.com/'>
-            <img src={this.props.data.img} alt='projectsnap'></img>
+            <img  width ='100%' height='100%' src={this.props.data.img} alt='projectsnap'></img>
              <div className='card-content'>
              <h3>{this.props.data.name}</h3>
              </div>

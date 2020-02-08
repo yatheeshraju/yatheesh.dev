@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import quotes from './../data/quotes'
-
+import RecentVideos from './RecentVideos';
+import RecentProject from './RecentProject';
 export default class Home extends Component {
      constructor(props){
          super(props);
@@ -27,12 +28,14 @@ export default class Home extends Component {
 
         return (
             <div>
-                <section className='maincontent'>
+                <section>
                     <div className='mainphoto'>
-                    <div id='quote'>{this.state.quote}</div>
+                    <div className='quote'>{this.state.quote}</div>
                     </div>
-                   
+                    <RecentVideos/>
+                    <RecentProject/>
                 </section>
+                
             </div>
         )
     }
