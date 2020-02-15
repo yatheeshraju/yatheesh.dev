@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import yathimg from './../images/yathimg.jpg';
 
 export default class Contact extends Component {
     render() {
         return (
             <div className='content'>
-                <div className='content-text'>
-                
+                <div className='contactways'>
+                <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="yatheeshkonduru"><a class="LI-simple-link" href='https://in.linkedin.com/in/yatheeshkonduru?trk=profile-badge'>Yatheesh Konduru</a></div>
+                <div>
+                    
                 </div>
-                <span className='space'></span>
-                <div className='content-image'>
-                    <img src={yathimg} alt="yatheesh"/>
                 </div>
                 </div>
         )

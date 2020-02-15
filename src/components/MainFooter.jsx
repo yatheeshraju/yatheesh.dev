@@ -5,14 +5,13 @@ export default class MainFooter extends Component {
         return (
             <div className='mainfooter'>
                 <div className='leftfoot'>
-               2020 @ designed and developed by yathee.sh
+               2020 @  yathee.sh
                 </div>
                 
                 <div className='rightfoot'>
                     <li><a href="\about">about</a></li>
-                    <li><a href="\blog">blog</a></li>
+                    <li><a href="https:\\yatheesh5.wordpress.com" >blog</a> </li>
                     <li><a href="\contact">contact</a></li>
-                    <li><a href="\privacy">privacy</a></li>
                 </div>
                 
             </div>

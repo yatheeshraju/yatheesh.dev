@@ -9,7 +9,6 @@ import {
   Route
 } from "react-router-dom";
 import Contact from './Contact';
-import Blog from './Blog';
 
 
 function App() {
@@ -26,9 +25,6 @@ function App() {
       </Route>
       <Route path="/contact">
             <Contact/>
-      </Route>
-      <Route path="/blog">
-            <Blog/>
       </Route>
       <Route exact path="/">
             <Home/>

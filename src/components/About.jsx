@@ -24,7 +24,7 @@ export default class About extends Component {
                 <br/>
                 <p>Every thing and anything technology intrests me . I challenge myself to learn new technologies, create new applications, make devices and many more.</p>
                 <br/>
-                 <p>I beleive strongly that "the day you stopped learning is the day you died" .</p>
+                 <p>fav quote "the day you stopped learning is the day you died" .</p>
                  <br/>
                 <p>Thanks for reading ! have a nice day !</p>
                 </div>

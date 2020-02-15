@@ -12,10 +12,10 @@ export default class MainNav extends Component {
             </div>
                 <div className='menu'>
                 <li>
-                    <a href="\blog">blog</a>
+                    <a href="\about">about</a>
                 </li>
                 <li>
-                    <a href="\about">about</a>
+                    <a href="https:\\yatheesh5.wordpress.com" >blog</a>
                 </li>
                 <li>
                     <a href="\contact">contact</a>
