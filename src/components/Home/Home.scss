@@ -1,0 +1,28 @@
+.home{
+    display: flex;
+    padding: 10vh 2vw 0 2vw;
+    font-size: 18px;
+    font-family:'Roboto Mono';
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    div{
+        font-size: 24px;
+        text-align: center;
+        padding-top: 30px;
+        img{
+            border-radius: 100%;
+            width: 75%;
+        }
+        span{
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media (max-width:900px){
+    .home{
+        flex-direction: column;
+    }
+}

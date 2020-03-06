@@ -1,0 +1,30 @@
+nav{
+    position: fixed;
+    font-size: 18px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 25px 0 rgba($color: #000000, $alpha: .7);
+    li{
+        list-style: none;
+        padding :15px;
+        &:first-child{
+            padding-left:5vw ;
+            flex-grow: 1;
+            font-size: 24px;
+        }   
+        a{
+            color: #333;
+            text-decoration: none;
+            transition: .5s font-size;
+            &:hover{
+                color: rgba($color: #000000, $alpha: .4);
+                transition: .5s font-size;
+                font-size: 24px;
+            }
+        }
+    }
+
+}
