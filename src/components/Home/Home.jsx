@@ -6,15 +6,23 @@ export class Home extends Component {
         return (
             <div className='home' id='home'>
                 <div>
-                   Hey ! I am
-                   <br/> <span>Yatheesh Konduru</span> 
-                   <br/>Technology Analyst 
-                </div>
                 <div>
                      
-                    <img src={yath} alt='yatheesh'/>
-                    
+                     <img src={yath} alt='yatheesh'/>
+                     
+                 </div> 
+                   <br/> <span>Yatheesh Konduru</span> 
+                   <br/>Technology Analyst 
+                   <br/>
+                   <hr/>
+                   <span className="links">
+                        <a href="mailto:yatheesh.konduru@gmail.com">email</a> &nbsp;
+                        <a href="https://in.linkedin.com/in/yatheeshkonduru">linkedin</a> &nbsp;
+                        <a href="https://github.com/yatheeshraju">github</a>
+                 </span>
                 </div>
+                
+              
             </div>
         )
     }

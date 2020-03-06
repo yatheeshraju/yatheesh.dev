@@ -1,12 +1,11 @@
 nav{
-    position: fixed;
     font-size: 18px;
     background-color: white;
     display:flex;
     align-items: center;
     width: 100%;
-    height: 70px;
-    box-shadow: 0 0 25px 0 rgba($color: #000000, $alpha: .7);
+    height: 10vh;
+    box-shadow: 0 0 25px 0 rgba($color: #000000, $alpha: .2);
     li{
         list-style: none;
         padding :15px;
@@ -27,4 +26,10 @@ nav{
         }
     }
 
+}
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
 }

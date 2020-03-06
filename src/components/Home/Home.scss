@@ -1,22 +1,41 @@
 .home{
     display: flex;
-    padding: 10vh 2vw 0 2vw;
+    padding: 0 2vw 0 2vw;
     font-size: 18px;
     font-family:'Roboto Mono';
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    height: 90vh;
+
     div{
         font-size: 24px;
         text-align: center;
         padding-top: 30px;
         img{
-            border-radius: 100%;
-            width: 75%;
+            border-radius: 30%;
+            width: 50%;
+            transition: 5s all;
+            &:hover{
+                width: 80%;
+                transition: 5s all;
+            }
         }
         span{
             font-size: 32px;
             font-weight: bold;
+        }
+        .links{
+            font-size: 18px;
+            a{
+                text-decoration: none;
+                color: rgba($color: #000000, $alpha: .7);
+                transition: .5s font-size;
+                &:hover{
+                    font-size: 24px;
+                    transition: .5s font-size;
+                }
+            }
+            
         }
     }
 }

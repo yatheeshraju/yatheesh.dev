@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="app">
       
-      <MainNav/>
+     
       <Home/>
+       <MainNav/>
       <Experience/>
       <Projects/>
       <MainFooter/>
