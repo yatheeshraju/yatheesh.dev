@@ -4,9 +4,14 @@ import './Card.scss';
 function Card(props) {
     return (
         <div className='card'>
-            <div className='banner'>{JSON.parse(props.article.banner[0]).data}</div>
-            <div className='title'>{props.article.title}</div>
-        </div>
+        <a href={props.article.short_URL} target="_window">
+        <img src={props.article.post_thumbnail.URL} alt={props.name}></img>
+        <p>
+        {props.article.title}
+        </p>
+        
+        </a>
+    </div>
     )
 }
 
