@@ -1,0 +1,35 @@
+.project{
+    width:300px;
+    height:300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    transition: .5s background-color;
+    .textonimg{ 
+        padding-top: 60px;;
+        font-weight: bolder;
+        font-size: 32px;
+        text-align: center;
+        transition: .5s color;
+        align-self: center;
+    }
+    &:hover{
+        background-color: rgba($color: #424242, $alpha: 1.0);
+        .textonimg{
+            color: white;
+        }
+        
+    }
+}
+
+@media(max-width:600px){
+    .project{
+        width:100%;
+        height:300px;
+        .textonimg{
+            padding: 60px;
+        }
+    }
+}

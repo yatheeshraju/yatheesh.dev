@@ -7,7 +7,10 @@
     }
     div{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        flex-direction: row;
+        padding:25px;
+        flex-wrap: wrap;
     }
     a{
         text-decoration: none;
