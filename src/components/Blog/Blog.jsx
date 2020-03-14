@@ -11,8 +11,10 @@ export class Blog extends Component {
        axios.get('https://public-api.wordpress.com/rest/v1.1/sites/yatheesh5.wordpress.com/posts/').then(res=>res.data).then((data)=>{
         this.setState({
             articles:data.posts
-        })
+        });
+        console.log(data.posts);
        });
+       
     }
     render() {
         return (
