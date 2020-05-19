@@ -6,6 +6,7 @@ import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import MainFooter from './components/MainFooter/MainFooter';
 import Blog from './components/Blog/Blog';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      
       <Home/>
        <MainNav/>
+       <Skills/>
       <Experience/>
       <Projects/>
       <Blog/>
