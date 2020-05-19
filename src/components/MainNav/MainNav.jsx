@@ -18,7 +18,7 @@ export class MainNav extends PureComponent {
            <nav id='navbar'>
                <li><a href='\#home'>HOME</a></li>
                <li><a href='\#skills'>SKILLS</a></li>
-               <li><a href='\#experience'>EXPERIENCE</a></li>
+               <li><a href='\#experience'>XP</a></li>
                <li><a href='\#projects'>PROJECTS</a></li>
                <li><a href='\#blog'>BLOG</a></li>
           </nav>
