@@ -9,6 +9,10 @@
         text-decoration: none;
         color: rgba($color: #000000, $alpha: .5);
     }
+    div{
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
 table, td, th {  
     border: 1px solid #ddd;
     text-align: left;

@@ -9,7 +9,7 @@ export default class Skills extends Component {
 
                  <br/>
                  <br/>
-
+                <div>
                 <table>
                     <tbody>
                 <tr>
@@ -34,6 +34,7 @@ export default class Skills extends Component {
                 </tr>
                 </tbody>
                 </table>
+                </div>
             </div>
         )
     }

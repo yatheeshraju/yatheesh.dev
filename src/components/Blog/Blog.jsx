@@ -12,7 +12,7 @@ export class Blog extends Component {
         this.setState({
             articles:data.posts
         });
-        console.log(data.posts);
+        // console.log(data.posts);
        });
        
     }
