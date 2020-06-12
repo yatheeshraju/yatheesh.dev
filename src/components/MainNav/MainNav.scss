@@ -13,7 +13,8 @@ nav{
         &:first-child{
             padding-left:5vw ;
             flex-grow: 1;
-            font-size: 24px;
+            font-size: 32px;
+            font-weight: bolder;
         }   
         a{
             color: #333;
@@ -25,6 +26,9 @@ nav{
                 font-size: 24px;
             }
         }
+        &:last-child{
+            padding-right: 20px;
+        }
     }
 
 }
@@ -34,4 +38,9 @@ nav{
 .relative{
     position: relative;
     
+}
+
+.brand{
+    border: 2px solid black;
+    padding: 5px 20px 5px 20px;
 }

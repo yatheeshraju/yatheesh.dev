@@ -16,11 +16,12 @@ export class MainNav extends PureComponent {
         };
         return (
            <nav id='navbar'>
-               <li><a href='\#home'>HOME</a></li>
+               <li><a href='\#home' className="brand">Y</a></li>
                <li><a href='\#skills'>SKILLS</a></li>
                <li><a href='\#experience'>XP</a></li>
                <li><a href='\#projects'>PROJECTS</a></li>
                <li><a href='\#blog'>BLOG</a></li>
+               
           </nav>
         )
     }

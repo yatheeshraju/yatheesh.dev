@@ -12,13 +12,14 @@ export class Home extends Component {
                      
                  </div> 
                    <br/> <span>Yatheesh Konduru</span> 
-                   <br/>Technology Analyst 
+                   <br/>Web Developer 
                    <br/>
                    <hr/>
                    <span className="links">
                         <a href="mailto:yatheesh.konduru@gmail.com">email</a> &nbsp;
                         <a href="https://in.linkedin.com/in/yatheeshkonduru">linkedin</a> &nbsp;
-                        <a href="https://github.com/yatheeshraju">github</a>
+                        <a href="https://github.com/yatheeshraju">github</a> &nbsp;
+                        <a href="/Yatheesh_Resume_Web_Developer_2020.pdf" download>resume</a>
                  </span>
                 </div>
                 
