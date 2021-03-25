@@ -1,17 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+* {
   box-sizing: border-box;
   scroll-behavior: smooth;
   margin: 0;
-  font-family:'Roboto';
 }
 
-.app{
-  font-family: 'Roboto';
+.app {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
-  
+  background-color: black;
+  color: white;
 }
-

@@ -1,46 +1,44 @@
-nav{
-    font-size: 18px;
-    font-weight: bold;
-    background-color: white;
-    display:flex;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-    box-shadow: 0 0 25px 0 rgba($color: #000000, $alpha: .2);
-    li{
-        list-style: none;
-        padding :5px;
-        &:first-child{
-            padding-left:5vw ;
-            flex-grow: 1;
-            font-size: 32px;
-            font-weight: bolder;
-        }   
-        a{
-            color: #333;
-            text-decoration: none;
-            transition: .5s font-size;
-            &:hover{
-                color: rgba($color: #000000, $alpha: .4);
-                transition: .5s font-size;
-                font-size: 24px;
-            }
-        }
-        &:last-child{
-            padding-right: 20px;
-        }
+nav {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  //box-shadow: 0 0 25px 0 rgba($color: yellowgreen, $alpha: 0.5);
+  li {
+    list-style: none;
+    padding: 5px;
+    &:first-child {
+      padding-left: 5vw;
+      flex-grow: 1;
+      font-size: 32px;
+      font-weight: bolder;
     }
+    a {
+      color: white;
+      text-decoration: none;
+      transition: 0.5s font-size;
+      &:hover {
+        color: rgba($color: white, $alpha: 0.4);
+        transition: 0.5s font-size;
+        font-size: 24px;
+      }
+    }
+    &:last-child {
+      padding-right: 20px;
+    }
+  }
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
 
-}
-.fixed{
-    position: fixed;
-}
-.relative{
-    position: relative;
-    
-}
-
-.brand{
-    border: 2px solid black;
-    padding: 5px 20px 5px 20px;
+#brand {
+  border: 2px solid white;
+  padding: 5px 20px 5px 20px;
 }

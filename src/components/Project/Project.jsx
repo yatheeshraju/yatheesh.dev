@@ -1,16 +1,14 @@
-import React from 'react';
-import './Project.scss';
+import React from "react";
+import "./Project.scss";
 
 function Project(props) {
-    return (
-        <div className='project'>
-                <a href={props.project.projectLink} target='_window'>
-                <div className='textonimg'>
-                    {props.project.projectName}
-                 </div>
-                </a>
-        </div>
-    )
+  return (
+    <div className="project">
+      <a href={props.project.projectLink} target="_window">
+        <div className="textonimg">{props.project.projectName}</div>
+      </a>
+    </div>
+  );
 }
 
-export default Project
+export default Project;

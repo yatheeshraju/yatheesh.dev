@@ -1,31 +1,57 @@
-import React, { Component } from 'react';
-import './Blog.scss';
-import Card from '../Card/Card';
-import axios from 'axios';
+import React, { useEffect, useState } from "react";
+import "./Blog.scss";
+import Card from "../Card/Card";
 
-export class Blog extends Component {
-    state={
-        articles:[]
+function Blog() {
+  const [articles, setarticles] = useState({ posts: [] });
+
+  useEffect(() => {
+    const query = `
+    {
+      user(username: "yatheesh") {
+        publication {
+          posts{
+            _id
+            slug
+            title
+            brief
+            coverImage
+            totalReactions
+          }
+        }
+      }
     }
-    componentDidMount(){
-       axios.get('https://public-api.wordpress.com/rest/v1.1/sites/yatheesh5.wordpress.com/posts/').then(res=>res.data).then((data)=>{
-        this.setState({
-            articles:data.posts
-        });
-        // console.log(data.posts);
-       });
-       
-    }
-    render() {
-        return (
-            <div className='blog' id='blog'>
-                <h1> <a href='\#blog'># BLOG</a></h1>
-                <div className='cards'>
-                {this.state.articles.map(article=><Card key={article.ID} article={article}/>)}
-                </div>
-            </div>
-        )
-    }
+  `;
+    const fetchPosts = async () => {
+      const response = await fetch("https://api.hashnode.com", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({ query }),
+      });
+      const ApiResponse = await response.json();
+      setarticles({
+        posts: ApiResponse.data.user.publication.posts,
+        loading: false,
+      });
+    };
+    fetchPosts();
+  }, []);
+  console.log(articles);
+  return (
+    <div className="blog" id="blog">
+      <h1>
+        <a href="\#blog"># BLOG</a>
+      </h1>
+      <div className="cards">
+        {articles &&
+          articles.posts.map((article) => (
+            <Card key={article.slug} article={article} />
+          ))}
+      </div>
+    </div>
+  );
 }
 
-export default Blog
+export default Blog;
