@@ -11,6 +11,9 @@ function MainNav() {
       "navbar"
     ).style.boxShadow = `0 0 55px 0 rgba(${number_one}, ${number_two}, ${number_three},0.5)`;
     document.getElementById(
+      "navbar"
+    ).style.border = `2px solid rgba(${number_one}, ${number_two}, ${number_three},0.5)`;
+    document.getElementById(
       "brand"
     ).style.boxShadow = `0 0 55px 0 rgba(${number_one}, ${number_two}, ${number_three},0.5)`;
     document.getElementById(
