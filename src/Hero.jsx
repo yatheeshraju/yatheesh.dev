@@ -17,7 +17,7 @@ function Hero() {
 				<img className="w-40 rounded-full inset-0" src="/yatheesh_photo.png" alt="yatheesh" />
 				<h1 className="text-4xl font-bold mt-6">Hey , I'm Yatheesh !</h1>
 				<p className="text-2xl text-gray-700 mt-4 text-center">
-					I build web apps, and everything to make them good.
+					I build web apps and everything to make them good.
 				</p>
 				<div className="flex gap-4 mt-4">
 					<a
